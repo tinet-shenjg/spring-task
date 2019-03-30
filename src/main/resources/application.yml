@@ -1,0 +1,10 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: HelloWorld
+  cloud.task.initialize.enable: false
+
+logging:
+  level.org.springframework.cloud.task: DEBUG
